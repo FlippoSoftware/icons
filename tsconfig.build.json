@@ -6,7 +6,7 @@
         "declaration": false,
         "declarationMap": false,
         "emitDeclarationOnly": false,
-        "outDir": "."
+        "outDir": "dist"
     },
     "include": ["lib/"]
 }

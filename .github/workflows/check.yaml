@@ -1,0 +1,47 @@
+name: Check
+
+on:
+    pull_request:
+    workflow_call:
+
+permissions:
+    contents: read
+
+jobs:
+    check:
+        runs-on: ubuntu-latest
+        timeout-minutes: 15
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version-file: .nvmrc
+                  cache: pnpm
+
+            - name: Install dependencies
+              run: pnpm install --frozen-lockfile
+
+            - name: Run checks
+              run: pnpm check
+
+            - name: Generated components match the SVG catalogue
+              run: |
+                  if [ -n "$(git status --porcelain -- packages/react-icons/src)" ]; then
+                      echo 'Run pnpm src:generate and commit the generated React components.'
+                      git diff --stat -- packages/react-icons/src
+                      exit 1
+                  fi
+                  if [ -n "$(git status --porcelain -- packages/react-icons/package.json)" ]; then
+                      echo 'Run pnpm src:generate and commit the generated React package exports.'
+                      git diff --stat -- packages/react-icons/package.json
+                      exit 1
+                  fi
+
+            # Packs each package as npm would publish it and checks its `exports`, `files` and types.
+            - name: Check the published packages
+              run: pnpm lint:packages

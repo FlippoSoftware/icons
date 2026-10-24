@@ -1,75 +1,40 @@
 {
-    "name": "@flippo-ui/icons",
+    "name": "@flippo-software/icons",
+    "private": true,
     "type": "module",
-    "version": "1.0.2",
-    "description": "Pack of Flippo UI icons",
-    "keywords": [
-        "icons",
-        "svg",
-        "react"
-    ],
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "default": "./dist/index.jsx"
-        },
-        "./svgs": "./svgs/*.svg",
-        "./Spinner": {
-            "types": "./dist/SpinnerIcon.d.ts",
-            "default": "./dist/SpinnerIcon.jsx"
-        }
-    },
-    "main": "./dist/index.jsx",
-    "types": "./dist/index.d.ts",
+    "packageManager": "pnpm@11.24.0",
     "scripts": {
-        "build": "node 'scripts/clear.js' && tsc --project './tsconfig.build.json' && tsc --project tsconfig.build.json --declaration --emitDeclarationOnly && pnpm biome check --write --unsafe './*.{jsx,d.ts}'",
-        "lint": "biome check --write --unsafe",
-        "src:download": "node --env-file=.env.local scripts/download.js",
-        "src:generate": "node --env-file=.env.local scripts/generateIcons.js && pnpm biome check --write --unsafe lib",
+        "build": "pnpm --recursive build",
+        "typecheck": "pnpm --recursive typecheck",
+        "lint:check": "biome check .",
+        "lint:fix": "biome check --write .",
+        "test": "node --test tools/*.test.mjs",
+        "lint:packages": "publint run --pack pnpm packages/svg-icons && publint run --pack pnpm packages/react-icons",
+        "check": "pnpm build && pnpm lint:check && pnpm typecheck && pnpm test",
+        "src:download": "node --env-file-if-exists=.env tools/download.mjs",
+        "src:generate": "node tools/generate-react.mjs",
         "redown": "pnpm src:download && pnpm src:generate",
-        "prepublishOnly": "pnpm run build",
-        "clear": "node scripts/clear.js"
-    },
-    "peerDependencies": {
-        "react": "*"
-    },
-    "peerDependenciesMeta": {
-        "react": {
-            "optional": true
-        }
+        "publish-guard": "node tools/publish-guard.mjs",
+        "prepare": "simple-git-hooks",
+        "hooks:install": "simple-git-hooks"
     },
     "devDependencies": {
-        "@biomejs/biome": "^2.5.11",
+        "@biomejs/biome": "catalog:",
         "@figma-export/core": "^6.2.2",
-        "@flippo/biome": "^1.0.0",
-        "@flippo/tsconfig": "^1.0.0",
+        "@flippo-software/biome": "catalog:",
         "@svgr/core": "^8.1.0",
         "@svgr/plugin-jsx": "^8.1.0",
-        "@svgr/plugin-svgo": "^8.1.0",
-        "@types/node": "^22.18.0",
-        "@types/react": "^19.0.12",
-        "@types/react-dom": "^19.0.4",
         "is-svg": "^5.1.0",
-        "react": "^19.1.1",
-        "react-dom": "^19.1.1",
-        "rimraf": "^6.0.1",
-        "svgo": "^3.3.2",
-        "typescript": "^5.9.2"
+        "publint": "^0.3.25",
+        "react": "catalog:",
+        "react-dom": "catalog:",
+        "simple-git-hooks": "catalog:",
+        "svgo": "^3.3.2"
     },
-    "publishConfig": {
-        "access": "public"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/FlippoSoftware/icons.git"
-    },
-    "homepage": "https://github.com/FlippoSoftware/icons#readme",
-    "bugs": {
-        "url": "https://github.com/FlippoSoftware/icons/issues"
-    },
-    "files": [
-        "dist",
-        "svgs"
-    ],
-    "sideEffects": false
+    "simple-git-hooks": {
+        "pre-commit": "test \"$(git symbolic-ref --quiet HEAD)\" != refs/heads/main || { echo \"Direct commits to main are not allowed. Create a feature branch.\" >&2; exit 1; }",
+        "pre-merge-commit": "test \"$(git symbolic-ref --quiet HEAD)\" != refs/heads/main || { echo \"Local merge commits on main are not allowed. Open a pull request.\" >&2; exit 1; }",
+        "pre-push": "while read -r local_ref local_sha remote_ref remote_sha; do if [ \"$remote_ref\" = refs/heads/main ]; then echo \"Direct pushes to main are not allowed. Open a pull request.\" >&2; exit 1; fi; done",
+        "preserveUnused": true
+    }
 }

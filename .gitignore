@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.tgz
+packages/svg-icons/.download-*/
+
+# Local secrets (FIGMA_TOKEN for `pnpm src:download`)
+.env
+.env.*

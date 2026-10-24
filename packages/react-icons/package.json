@@ -1,0 +1,1321 @@
+{
+    "name": "@flippo-software/react-icons",
+    "version": "1.0.2",
+    "type": "module",
+    "description": "Typed React components generated from the Flippo SVG icon catalogue.",
+    "keywords": [
+        "flippo",
+        "icons",
+        "svg",
+        "react"
+    ],
+    "sideEffects": false,
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": {
+                "types": "./dist/index.d.ts",
+                "default": "./dist/index.js"
+            },
+            "require": {
+                "types": "./dist/index.d.cts",
+                "default": "./dist/index.cjs"
+            }
+        },
+        "./add_row_above": {
+            "import": {
+                "types": "./dist/AddRowAboveIcon.d.ts",
+                "default": "./dist/AddRowAboveIcon.js"
+            },
+            "require": {
+                "types": "./dist/AddRowAboveIcon.d.cts",
+                "default": "./dist/AddRowAboveIcon.cjs"
+            }
+        },
+        "./add_row_below": {
+            "import": {
+                "types": "./dist/AddRowBelowIcon.d.ts",
+                "default": "./dist/AddRowBelowIcon.js"
+            },
+            "require": {
+                "types": "./dist/AddRowBelowIcon.d.cts",
+                "default": "./dist/AddRowBelowIcon.cjs"
+            }
+        },
+        "./add_square": {
+            "import": {
+                "types": "./dist/AddSquareIcon.d.ts",
+                "default": "./dist/AddSquareIcon.js"
+            },
+            "require": {
+                "types": "./dist/AddSquareIcon.d.cts",
+                "default": "./dist/AddSquareIcon.cjs"
+            }
+        },
+        "./arrow_360": {
+            "import": {
+                "types": "./dist/Arrow360Icon.d.ts",
+                "default": "./dist/Arrow360Icon.js"
+            },
+            "require": {
+                "types": "./dist/Arrow360Icon.d.cts",
+                "default": "./dist/Arrow360Icon.cjs"
+            }
+        },
+        "./arrow_back": {
+            "import": {
+                "types": "./dist/ArrowBackIcon.d.ts",
+                "default": "./dist/ArrowBackIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowBackIcon.d.cts",
+                "default": "./dist/ArrowBackIcon.cjs"
+            }
+        },
+        "./arrow_down_to_square": {
+            "import": {
+                "types": "./dist/ArrowDownToSquareIcon.d.ts",
+                "default": "./dist/ArrowDownToSquareIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowDownToSquareIcon.d.cts",
+                "default": "./dist/ArrowDownToSquareIcon.cjs"
+            }
+        },
+        "./arrow_left_arrow_right": {
+            "import": {
+                "types": "./dist/ArrowLeftArrowRightIcon.d.ts",
+                "default": "./dist/ArrowLeftArrowRightIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowLeftArrowRightIcon.d.cts",
+                "default": "./dist/ArrowLeftArrowRightIcon.cjs"
+            }
+        },
+        "./arrow_outward": {
+            "import": {
+                "types": "./dist/ArrowOutwardIcon.d.ts",
+                "default": "./dist/ArrowOutwardIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowOutwardIcon.d.cts",
+                "default": "./dist/ArrowOutwardIcon.cjs"
+            }
+        },
+        "./arrow_right_from_square": {
+            "import": {
+                "types": "./dist/ArrowRightFromSquareIcon.d.ts",
+                "default": "./dist/ArrowRightFromSquareIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowRightFromSquareIcon.d.cts",
+                "default": "./dist/ArrowRightFromSquareIcon.cjs"
+            }
+        },
+        "./arrow_right_to_square": {
+            "import": {
+                "types": "./dist/ArrowRightToSquareIcon.d.ts",
+                "default": "./dist/ArrowRightToSquareIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowRightToSquareIcon.d.cts",
+                "default": "./dist/ArrowRightToSquareIcon.cjs"
+            }
+        },
+        "./arrow_shape_turn_up_right": {
+            "import": {
+                "types": "./dist/ArrowShapeTurnUpRightIcon.d.ts",
+                "default": "./dist/ArrowShapeTurnUpRightIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowShapeTurnUpRightIcon.d.cts",
+                "default": "./dist/ArrowShapeTurnUpRightIcon.cjs"
+            }
+        },
+        "./arrow_shape_turn_up_right_check": {
+            "import": {
+                "types": "./dist/ArrowShapeTurnUpRightCheckIcon.d.ts",
+                "default": "./dist/ArrowShapeTurnUpRightCheckIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowShapeTurnUpRightCheckIcon.d.cts",
+                "default": "./dist/ArrowShapeTurnUpRightCheckIcon.cjs"
+            }
+        },
+        "./arrows_rotate_right_add": {
+            "import": {
+                "types": "./dist/ArrowsRotateRightAddIcon.d.ts",
+                "default": "./dist/ArrowsRotateRightAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowsRotateRightAddIcon.d.cts",
+                "default": "./dist/ArrowsRotateRightAddIcon.cjs"
+            }
+        },
+        "./arrows_rotate_right_check": {
+            "import": {
+                "types": "./dist/ArrowsRotateRightCheckIcon.d.ts",
+                "default": "./dist/ArrowsRotateRightCheckIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowsRotateRightCheckIcon.d.cts",
+                "default": "./dist/ArrowsRotateRightCheckIcon.cjs"
+            }
+        },
+        "./arrow_up_arrow_down": {
+            "import": {
+                "types": "./dist/ArrowUpArrowDownIcon.d.ts",
+                "default": "./dist/ArrowUpArrowDownIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowUpArrowDownIcon.d.cts",
+                "default": "./dist/ArrowUpArrowDownIcon.cjs"
+            }
+        },
+        "./arrow_uturn_ccw_left": {
+            "import": {
+                "types": "./dist/ArrowUturnCcwLeftIcon.d.ts",
+                "default": "./dist/ArrowUturnCcwLeftIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowUturnCcwLeftIcon.d.cts",
+                "default": "./dist/ArrowUturnCcwLeftIcon.cjs"
+            }
+        },
+        "./arrow_uturn_cw_right": {
+            "import": {
+                "types": "./dist/ArrowUturnCwRightIcon.d.ts",
+                "default": "./dist/ArrowUturnCwRightIcon.js"
+            },
+            "require": {
+                "types": "./dist/ArrowUturnCwRightIcon.d.cts",
+                "default": "./dist/ArrowUturnCwRightIcon.cjs"
+            }
+        },
+        "./attach_file": {
+            "import": {
+                "types": "./dist/AttachFileIcon.d.ts",
+                "default": "./dist/AttachFileIcon.js"
+            },
+            "require": {
+                "types": "./dist/AttachFileIcon.d.cts",
+                "default": "./dist/AttachFileIcon.cjs"
+            }
+        },
+        "./bookmark": {
+            "import": {
+                "types": "./dist/BookmarkIcon.d.ts",
+                "default": "./dist/BookmarkIcon.js"
+            },
+            "require": {
+                "types": "./dist/BookmarkIcon.d.cts",
+                "default": "./dist/BookmarkIcon.cjs"
+            }
+        },
+        "./bookmark_fill": {
+            "import": {
+                "types": "./dist/BookmarkFillIcon.d.ts",
+                "default": "./dist/BookmarkFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/BookmarkFillIcon.d.cts",
+                "default": "./dist/BookmarkFillIcon.cjs"
+            }
+        },
+        "./bookmarks": {
+            "import": {
+                "types": "./dist/BookmarksIcon.d.ts",
+                "default": "./dist/BookmarksIcon.js"
+            },
+            "require": {
+                "types": "./dist/BookmarksIcon.d.cts",
+                "default": "./dist/BookmarksIcon.cjs"
+            }
+        },
+        "./check": {
+            "import": {
+                "types": "./dist/CheckIcon.d.ts",
+                "default": "./dist/CheckIcon.js"
+            },
+            "require": {
+                "types": "./dist/CheckIcon.d.cts",
+                "default": "./dist/CheckIcon.cjs"
+            }
+        },
+        "./chevron_down": {
+            "import": {
+                "types": "./dist/ChevronDownIcon.d.ts",
+                "default": "./dist/ChevronDownIcon.js"
+            },
+            "require": {
+                "types": "./dist/ChevronDownIcon.d.cts",
+                "default": "./dist/ChevronDownIcon.cjs"
+            }
+        },
+        "./chevron_down_to_line": {
+            "import": {
+                "types": "./dist/ChevronDownToLineIcon.d.ts",
+                "default": "./dist/ChevronDownToLineIcon.js"
+            },
+            "require": {
+                "types": "./dist/ChevronDownToLineIcon.d.cts",
+                "default": "./dist/ChevronDownToLineIcon.cjs"
+            }
+        },
+        "./chevron_left": {
+            "import": {
+                "types": "./dist/ChevronLeftIcon.d.ts",
+                "default": "./dist/ChevronLeftIcon.js"
+            },
+            "require": {
+                "types": "./dist/ChevronLeftIcon.d.cts",
+                "default": "./dist/ChevronLeftIcon.cjs"
+            }
+        },
+        "./chevron_right": {
+            "import": {
+                "types": "./dist/ChevronRightIcon.d.ts",
+                "default": "./dist/ChevronRightIcon.js"
+            },
+            "require": {
+                "types": "./dist/ChevronRightIcon.d.cts",
+                "default": "./dist/ChevronRightIcon.cjs"
+            }
+        },
+        "./chevrons_collapse_up_right": {
+            "import": {
+                "types": "./dist/ChevronsCollapseUpRightIcon.d.ts",
+                "default": "./dist/ChevronsCollapseUpRightIcon.js"
+            },
+            "require": {
+                "types": "./dist/ChevronsCollapseUpRightIcon.d.cts",
+                "default": "./dist/ChevronsCollapseUpRightIcon.cjs"
+            }
+        },
+        "./chevrons_expand_up_right": {
+            "import": {
+                "types": "./dist/ChevronsExpandUpRightIcon.d.ts",
+                "default": "./dist/ChevronsExpandUpRightIcon.js"
+            },
+            "require": {
+                "types": "./dist/ChevronsExpandUpRightIcon.d.cts",
+                "default": "./dist/ChevronsExpandUpRightIcon.cjs"
+            }
+        },
+        "./chevron_up": {
+            "import": {
+                "types": "./dist/ChevronUpIcon.d.ts",
+                "default": "./dist/ChevronUpIcon.js"
+            },
+            "require": {
+                "types": "./dist/ChevronUpIcon.d.cts",
+                "default": "./dist/ChevronUpIcon.cjs"
+            }
+        },
+        "./chevron_up_to_line": {
+            "import": {
+                "types": "./dist/ChevronUpToLineIcon.d.ts",
+                "default": "./dist/ChevronUpToLineIcon.js"
+            },
+            "require": {
+                "types": "./dist/ChevronUpToLineIcon.d.cts",
+                "default": "./dist/ChevronUpToLineIcon.cjs"
+            }
+        },
+        "./circle_check": {
+            "import": {
+                "types": "./dist/CircleCheckIcon.d.ts",
+                "default": "./dist/CircleCheckIcon.js"
+            },
+            "require": {
+                "types": "./dist/CircleCheckIcon.d.cts",
+                "default": "./dist/CircleCheckIcon.cjs"
+            }
+        },
+        "./circle_check_fill": {
+            "import": {
+                "types": "./dist/CircleCheckFillIcon.d.ts",
+                "default": "./dist/CircleCheckFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/CircleCheckFillIcon.d.cts",
+                "default": "./dist/CircleCheckFillIcon.cjs"
+            }
+        },
+        "./circle_info": {
+            "import": {
+                "types": "./dist/CircleInfoIcon.d.ts",
+                "default": "./dist/CircleInfoIcon.js"
+            },
+            "require": {
+                "types": "./dist/CircleInfoIcon.d.cts",
+                "default": "./dist/CircleInfoIcon.cjs"
+            }
+        },
+        "./circle_info_fill": {
+            "import": {
+                "types": "./dist/CircleInfoFillIcon.d.ts",
+                "default": "./dist/CircleInfoFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/CircleInfoFillIcon.d.cts",
+                "default": "./dist/CircleInfoFillIcon.cjs"
+            }
+        },
+        "./circle_xmark": {
+            "import": {
+                "types": "./dist/CircleXmarkIcon.d.ts",
+                "default": "./dist/CircleXmarkIcon.js"
+            },
+            "require": {
+                "types": "./dist/CircleXmarkIcon.d.cts",
+                "default": "./dist/CircleXmarkIcon.cjs"
+            }
+        },
+        "./circle_xmark_fill": {
+            "import": {
+                "types": "./dist/CircleXmarkFillIcon.d.ts",
+                "default": "./dist/CircleXmarkFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/CircleXmarkFillIcon.d.cts",
+                "default": "./dist/CircleXmarkFillIcon.cjs"
+            }
+        },
+        "./clipboard": {
+            "import": {
+                "types": "./dist/ClipboardIcon.d.ts",
+                "default": "./dist/ClipboardIcon.js"
+            },
+            "require": {
+                "types": "./dist/ClipboardIcon.d.cts",
+                "default": "./dist/ClipboardIcon.cjs"
+            }
+        },
+        "./clock_40": {
+            "import": {
+                "types": "./dist/Clock40Icon.d.ts",
+                "default": "./dist/Clock40Icon.js"
+            },
+            "require": {
+                "types": "./dist/Clock40Icon.d.cts",
+                "default": "./dist/Clock40Icon.cjs"
+            }
+        },
+        "./clock_60": {
+            "import": {
+                "types": "./dist/Clock60Icon.d.ts",
+                "default": "./dist/Clock60Icon.js"
+            },
+            "require": {
+                "types": "./dist/Clock60Icon.d.cts",
+                "default": "./dist/Clock60Icon.cjs"
+            }
+        },
+        "./clock_arrow_rotate_ccw_left": {
+            "import": {
+                "types": "./dist/ClockArrowRotateCcwLeftIcon.d.ts",
+                "default": "./dist/ClockArrowRotateCcwLeftIcon.js"
+            },
+            "require": {
+                "types": "./dist/ClockArrowRotateCcwLeftIcon.d.cts",
+                "default": "./dist/ClockArrowRotateCcwLeftIcon.cjs"
+            }
+        },
+        "./code_block": {
+            "import": {
+                "types": "./dist/CodeBlockIcon.d.ts",
+                "default": "./dist/CodeBlockIcon.js"
+            },
+            "require": {
+                "types": "./dist/CodeBlockIcon.d.cts",
+                "default": "./dist/CodeBlockIcon.cjs"
+            }
+        },
+        "./copy": {
+            "import": {
+                "types": "./dist/CopyIcon.d.ts",
+                "default": "./dist/CopyIcon.js"
+            },
+            "require": {
+                "types": "./dist/CopyIcon.d.cts",
+                "default": "./dist/CopyIcon.cjs"
+            }
+        },
+        "./delete": {
+            "import": {
+                "types": "./dist/DeleteIcon.d.ts",
+                "default": "./dist/DeleteIcon.js"
+            },
+            "require": {
+                "types": "./dist/DeleteIcon.d.cts",
+                "default": "./dist/DeleteIcon.cjs"
+            }
+        },
+        "./delete_xmark": {
+            "import": {
+                "types": "./dist/DeleteXmarkIcon.d.ts",
+                "default": "./dist/DeleteXmarkIcon.js"
+            },
+            "require": {
+                "types": "./dist/DeleteXmarkIcon.d.cts",
+                "default": "./dist/DeleteXmarkIcon.cjs"
+            }
+        },
+        "./dots_horizontal": {
+            "import": {
+                "types": "./dist/DotsHorizontalIcon.d.ts",
+                "default": "./dist/DotsHorizontalIcon.js"
+            },
+            "require": {
+                "types": "./dist/DotsHorizontalIcon.d.cts",
+                "default": "./dist/DotsHorizontalIcon.cjs"
+            }
+        },
+        "./dots_vertical": {
+            "import": {
+                "types": "./dist/DotsVerticalIcon.d.ts",
+                "default": "./dist/DotsVerticalIcon.js"
+            },
+            "require": {
+                "types": "./dist/DotsVerticalIcon.d.cts",
+                "default": "./dist/DotsVerticalIcon.cjs"
+            }
+        },
+        "./equal": {
+            "import": {
+                "types": "./dist/EqualIcon.d.ts",
+                "default": "./dist/EqualIcon.js"
+            },
+            "require": {
+                "types": "./dist/EqualIcon.d.cts",
+                "default": "./dist/EqualIcon.cjs"
+            }
+        },
+        "./explore": {
+            "import": {
+                "types": "./dist/ExploreIcon.d.ts",
+                "default": "./dist/ExploreIcon.js"
+            },
+            "require": {
+                "types": "./dist/ExploreIcon.d.cts",
+                "default": "./dist/ExploreIcon.cjs"
+            }
+        },
+        "./explore_fill": {
+            "import": {
+                "types": "./dist/ExploreFillIcon.d.ts",
+                "default": "./dist/ExploreFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/ExploreFillIcon.d.cts",
+                "default": "./dist/ExploreFillIcon.cjs"
+            }
+        },
+        "./favorite": {
+            "import": {
+                "types": "./dist/FavoriteIcon.d.ts",
+                "default": "./dist/FavoriteIcon.js"
+            },
+            "require": {
+                "types": "./dist/FavoriteIcon.d.cts",
+                "default": "./dist/FavoriteIcon.cjs"
+            }
+        },
+        "./favorite_fill": {
+            "import": {
+                "types": "./dist/FavoriteFillIcon.d.ts",
+                "default": "./dist/FavoriteFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/FavoriteFillIcon.d.cts",
+                "default": "./dist/FavoriteFillIcon.cjs"
+            }
+        },
+        "./file": {
+            "import": {
+                "types": "./dist/FileIcon.d.ts",
+                "default": "./dist/FileIcon.js"
+            },
+            "require": {
+                "types": "./dist/FileIcon.d.cts",
+                "default": "./dist/FileIcon.cjs"
+            }
+        },
+        "./file_add": {
+            "import": {
+                "types": "./dist/FileAddIcon.d.ts",
+                "default": "./dist/FileAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/FileAddIcon.d.cts",
+                "default": "./dist/FileAddIcon.cjs"
+            }
+        },
+        "./file_check": {
+            "import": {
+                "types": "./dist/FileCheckIcon.d.ts",
+                "default": "./dist/FileCheckIcon.js"
+            },
+            "require": {
+                "types": "./dist/FileCheckIcon.d.cts",
+                "default": "./dist/FileCheckIcon.cjs"
+            }
+        },
+        "./file_check_fill": {
+            "import": {
+                "types": "./dist/FileCheckFillIcon.d.ts",
+                "default": "./dist/FileCheckFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/FileCheckFillIcon.d.cts",
+                "default": "./dist/FileCheckFillIcon.cjs"
+            }
+        },
+        "./filter": {
+            "import": {
+                "types": "./dist/FilterIcon.d.ts",
+                "default": "./dist/FilterIcon.js"
+            },
+            "require": {
+                "types": "./dist/FilterIcon.d.cts",
+                "default": "./dist/FilterIcon.cjs"
+            }
+        },
+        "./filter_fill": {
+            "import": {
+                "types": "./dist/FilterFillIcon.d.ts",
+                "default": "./dist/FilterFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/FilterFillIcon.d.cts",
+                "default": "./dist/FilterFillIcon.cjs"
+            }
+        },
+        "./flag_ru": {
+            "import": {
+                "types": "./dist/FlagRuIcon.d.ts",
+                "default": "./dist/FlagRuIcon.js"
+            },
+            "require": {
+                "types": "./dist/FlagRuIcon.d.cts",
+                "default": "./dist/FlagRuIcon.cjs"
+            }
+        },
+        "./flag_uk": {
+            "import": {
+                "types": "./dist/FlagUkIcon.d.ts",
+                "default": "./dist/FlagUkIcon.js"
+            },
+            "require": {
+                "types": "./dist/FlagUkIcon.d.cts",
+                "default": "./dist/FlagUkIcon.cjs"
+            }
+        },
+        "./folder": {
+            "import": {
+                "types": "./dist/FolderIcon.d.ts",
+                "default": "./dist/FolderIcon.js"
+            },
+            "require": {
+                "types": "./dist/FolderIcon.d.cts",
+                "default": "./dist/FolderIcon.cjs"
+            }
+        },
+        "./folder_add": {
+            "import": {
+                "types": "./dist/FolderAddIcon.d.ts",
+                "default": "./dist/FolderAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/FolderAddIcon.d.cts",
+                "default": "./dist/FolderAddIcon.cjs"
+            }
+        },
+        "./folder_fill": {
+            "import": {
+                "types": "./dist/FolderFillIcon.d.ts",
+                "default": "./dist/FolderFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/FolderFillIcon.d.cts",
+                "default": "./dist/FolderFillIcon.cjs"
+            }
+        },
+        "./folder_open": {
+            "import": {
+                "types": "./dist/FolderOpenIcon.d.ts",
+                "default": "./dist/FolderOpenIcon.js"
+            },
+            "require": {
+                "types": "./dist/FolderOpenIcon.d.cts",
+                "default": "./dist/FolderOpenIcon.cjs"
+            }
+        },
+        "./folder_open_fill": {
+            "import": {
+                "types": "./dist/FolderOpenFillIcon.d.ts",
+                "default": "./dist/FolderOpenFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/FolderOpenFillIcon.d.cts",
+                "default": "./dist/FolderOpenFillIcon.cjs"
+            }
+        },
+        "./folders": {
+            "import": {
+                "types": "./dist/FoldersIcon.d.ts",
+                "default": "./dist/FoldersIcon.js"
+            },
+            "require": {
+                "types": "./dist/FoldersIcon.d.cts",
+                "default": "./dist/FoldersIcon.cjs"
+            }
+        },
+        "./format_bold": {
+            "import": {
+                "types": "./dist/FormatBoldIcon.d.ts",
+                "default": "./dist/FormatBoldIcon.js"
+            },
+            "require": {
+                "types": "./dist/FormatBoldIcon.d.cts",
+                "default": "./dist/FormatBoldIcon.cjs"
+            }
+        },
+        "./format_italic": {
+            "import": {
+                "types": "./dist/FormatItalicIcon.d.ts",
+                "default": "./dist/FormatItalicIcon.js"
+            },
+            "require": {
+                "types": "./dist/FormatItalicIcon.d.cts",
+                "default": "./dist/FormatItalicIcon.cjs"
+            }
+        },
+        "./format_list_ol": {
+            "import": {
+                "types": "./dist/FormatListOlIcon.d.ts",
+                "default": "./dist/FormatListOlIcon.js"
+            },
+            "require": {
+                "types": "./dist/FormatListOlIcon.d.cts",
+                "default": "./dist/FormatListOlIcon.cjs"
+            }
+        },
+        "./format_list_ul": {
+            "import": {
+                "types": "./dist/FormatListUlIcon.d.ts",
+                "default": "./dist/FormatListUlIcon.js"
+            },
+            "require": {
+                "types": "./dist/FormatListUlIcon.d.cts",
+                "default": "./dist/FormatListUlIcon.cjs"
+            }
+        },
+        "./format_undeline": {
+            "import": {
+                "types": "./dist/FormatUndelineIcon.d.ts",
+                "default": "./dist/FormatUndelineIcon.js"
+            },
+            "require": {
+                "types": "./dist/FormatUndelineIcon.d.cts",
+                "default": "./dist/FormatUndelineIcon.cjs"
+            }
+        },
+        "./fullscreen": {
+            "import": {
+                "types": "./dist/FullscreenIcon.d.ts",
+                "default": "./dist/FullscreenIcon.js"
+            },
+            "require": {
+                "types": "./dist/FullscreenIcon.d.cts",
+                "default": "./dist/FullscreenIcon.cjs"
+            }
+        },
+        "./funnel": {
+            "import": {
+                "types": "./dist/FunnelIcon.d.ts",
+                "default": "./dist/FunnelIcon.js"
+            },
+            "require": {
+                "types": "./dist/FunnelIcon.d.cts",
+                "default": "./dist/FunnelIcon.cjs"
+            }
+        },
+        "./globe": {
+            "import": {
+                "types": "./dist/GlobeIcon.d.ts",
+                "default": "./dist/GlobeIcon.js"
+            },
+            "require": {
+                "types": "./dist/GlobeIcon.d.cts",
+                "default": "./dist/GlobeIcon.cjs"
+            }
+        },
+        "./globe_add": {
+            "import": {
+                "types": "./dist/GlobeAddIcon.d.ts",
+                "default": "./dist/GlobeAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/GlobeAddIcon.d.cts",
+                "default": "./dist/GlobeAddIcon.cjs"
+            }
+        },
+        "./google": {
+            "import": {
+                "types": "./dist/GoogleIcon.d.ts",
+                "default": "./dist/GoogleIcon.js"
+            },
+            "require": {
+                "types": "./dist/GoogleIcon.d.cts",
+                "default": "./dist/GoogleIcon.cjs"
+            }
+        },
+        "./grip": {
+            "import": {
+                "types": "./dist/GripIcon.d.ts",
+                "default": "./dist/GripIcon.js"
+            },
+            "require": {
+                "types": "./dist/GripIcon.d.cts",
+                "default": "./dist/GripIcon.cjs"
+            }
+        },
+        "./hint": {
+            "import": {
+                "types": "./dist/HintIcon.d.ts",
+                "default": "./dist/HintIcon.js"
+            },
+            "require": {
+                "types": "./dist/HintIcon.d.cts",
+                "default": "./dist/HintIcon.cjs"
+            }
+        },
+        "./hint_add": {
+            "import": {
+                "types": "./dist/HintAddIcon.d.ts",
+                "default": "./dist/HintAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/HintAddIcon.d.cts",
+                "default": "./dist/HintAddIcon.cjs"
+            }
+        },
+        "./hint_slash": {
+            "import": {
+                "types": "./dist/HintSlashIcon.d.ts",
+                "default": "./dist/HintSlashIcon.js"
+            },
+            "require": {
+                "types": "./dist/HintSlashIcon.d.cts",
+                "default": "./dist/HintSlashIcon.cjs"
+            }
+        },
+        "./home": {
+            "import": {
+                "types": "./dist/HomeIcon.d.ts",
+                "default": "./dist/HomeIcon.js"
+            },
+            "require": {
+                "types": "./dist/HomeIcon.d.cts",
+                "default": "./dist/HomeIcon.cjs"
+            }
+        },
+        "./home_fill": {
+            "import": {
+                "types": "./dist/HomeFillIcon.d.ts",
+                "default": "./dist/HomeFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/HomeFillIcon.d.cts",
+                "default": "./dist/HomeFillIcon.cjs"
+            }
+        },
+        "./interests": {
+            "import": {
+                "types": "./dist/InterestsIcon.d.ts",
+                "default": "./dist/InterestsIcon.js"
+            },
+            "require": {
+                "types": "./dist/InterestsIcon.d.cts",
+                "default": "./dist/InterestsIcon.cjs"
+            }
+        },
+        "./interests_fill": {
+            "import": {
+                "types": "./dist/InterestsFillIcon.d.ts",
+                "default": "./dist/InterestsFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/InterestsFillIcon.d.cts",
+                "default": "./dist/InterestsFillIcon.cjs"
+            }
+        },
+        "./language": {
+            "import": {
+                "types": "./dist/LanguageIcon.d.ts",
+                "default": "./dist/LanguageIcon.js"
+            },
+            "require": {
+                "types": "./dist/LanguageIcon.d.cts",
+                "default": "./dist/LanguageIcon.cjs"
+            }
+        },
+        "./learn": {
+            "import": {
+                "types": "./dist/LearnIcon.d.ts",
+                "default": "./dist/LearnIcon.js"
+            },
+            "require": {
+                "types": "./dist/LearnIcon.d.cts",
+                "default": "./dist/LearnIcon.cjs"
+            }
+        },
+        "./link": {
+            "import": {
+                "types": "./dist/LinkIcon.d.ts",
+                "default": "./dist/LinkIcon.js"
+            },
+            "require": {
+                "types": "./dist/LinkIcon.d.cts",
+                "default": "./dist/LinkIcon.cjs"
+            }
+        },
+        "./link_add": {
+            "import": {
+                "types": "./dist/LinkAddIcon.d.ts",
+                "default": "./dist/LinkAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/LinkAddIcon.d.cts",
+                "default": "./dist/LinkAddIcon.cjs"
+            }
+        },
+        "./link_slash": {
+            "import": {
+                "types": "./dist/LinkSlashIcon.d.ts",
+                "default": "./dist/LinkSlashIcon.js"
+            },
+            "require": {
+                "types": "./dist/LinkSlashIcon.d.cts",
+                "default": "./dist/LinkSlashIcon.cjs"
+            }
+        },
+        "./list_add": {
+            "import": {
+                "types": "./dist/ListAddIcon.d.ts",
+                "default": "./dist/ListAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/ListAddIcon.d.cts",
+                "default": "./dist/ListAddIcon.cjs"
+            }
+        },
+        "./magnifier": {
+            "import": {
+                "types": "./dist/MagnifierIcon.d.ts",
+                "default": "./dist/MagnifierIcon.js"
+            },
+            "require": {
+                "types": "./dist/MagnifierIcon.d.cts",
+                "default": "./dist/MagnifierIcon.cjs"
+            }
+        },
+        "./mail_aol": {
+            "import": {
+                "types": "./dist/MailAolIcon.d.ts",
+                "default": "./dist/MailAolIcon.js"
+            },
+            "require": {
+                "types": "./dist/MailAolIcon.d.cts",
+                "default": "./dist/MailAolIcon.cjs"
+            }
+        },
+        "./mail_gmail": {
+            "import": {
+                "types": "./dist/MailGmailIcon.d.ts",
+                "default": "./dist/MailGmailIcon.js"
+            },
+            "require": {
+                "types": "./dist/MailGmailIcon.d.cts",
+                "default": "./dist/MailGmailIcon.cjs"
+            }
+        },
+        "./mail_icloud": {
+            "import": {
+                "types": "./dist/MailIcloudIcon.d.ts",
+                "default": "./dist/MailIcloudIcon.js"
+            },
+            "require": {
+                "types": "./dist/MailIcloudIcon.d.cts",
+                "default": "./dist/MailIcloudIcon.cjs"
+            }
+        },
+        "./mail_mail": {
+            "import": {
+                "types": "./dist/MailMailIcon.d.ts",
+                "default": "./dist/MailMailIcon.js"
+            },
+            "require": {
+                "types": "./dist/MailMailIcon.d.cts",
+                "default": "./dist/MailMailIcon.cjs"
+            }
+        },
+        "./mail_outlook": {
+            "import": {
+                "types": "./dist/MailOutlookIcon.d.ts",
+                "default": "./dist/MailOutlookIcon.js"
+            },
+            "require": {
+                "types": "./dist/MailOutlookIcon.d.cts",
+                "default": "./dist/MailOutlookIcon.cjs"
+            }
+        },
+        "./mail_proton": {
+            "import": {
+                "types": "./dist/MailProtonIcon.d.ts",
+                "default": "./dist/MailProtonIcon.js"
+            },
+            "require": {
+                "types": "./dist/MailProtonIcon.d.cts",
+                "default": "./dist/MailProtonIcon.cjs"
+            }
+        },
+        "./mail_yahoo": {
+            "import": {
+                "types": "./dist/MailYahooIcon.d.ts",
+                "default": "./dist/MailYahooIcon.js"
+            },
+            "require": {
+                "types": "./dist/MailYahooIcon.d.cts",
+                "default": "./dist/MailYahooIcon.cjs"
+            }
+        },
+        "./mail_yandex": {
+            "import": {
+                "types": "./dist/MailYandexIcon.d.ts",
+                "default": "./dist/MailYandexIcon.js"
+            },
+            "require": {
+                "types": "./dist/MailYandexIcon.d.cts",
+                "default": "./dist/MailYandexIcon.cjs"
+            }
+        },
+        "./minus": {
+            "import": {
+                "types": "./dist/MinusIcon.d.ts",
+                "default": "./dist/MinusIcon.js"
+            },
+            "require": {
+                "types": "./dist/MinusIcon.d.cts",
+                "default": "./dist/MinusIcon.cjs"
+            }
+        },
+        "./move_to_folder": {
+            "import": {
+                "types": "./dist/MoveToFolderIcon.d.ts",
+                "default": "./dist/MoveToFolderIcon.js"
+            },
+            "require": {
+                "types": "./dist/MoveToFolderIcon.d.cts",
+                "default": "./dist/MoveToFolderIcon.cjs"
+            }
+        },
+        "./notifications": {
+            "import": {
+                "types": "./dist/NotificationsIcon.d.ts",
+                "default": "./dist/NotificationsIcon.js"
+            },
+            "require": {
+                "types": "./dist/NotificationsIcon.d.cts",
+                "default": "./dist/NotificationsIcon.cjs"
+            }
+        },
+        "./pencil": {
+            "import": {
+                "types": "./dist/PencilIcon.d.ts",
+                "default": "./dist/PencilIcon.js"
+            },
+            "require": {
+                "types": "./dist/PencilIcon.d.cts",
+                "default": "./dist/PencilIcon.cjs"
+            }
+        },
+        "./person_add": {
+            "import": {
+                "types": "./dist/PersonAddIcon.d.ts",
+                "default": "./dist/PersonAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/PersonAddIcon.d.cts",
+                "default": "./dist/PersonAddIcon.cjs"
+            }
+        },
+        "./person_check": {
+            "import": {
+                "types": "./dist/PersonCheckIcon.d.ts",
+                "default": "./dist/PersonCheckIcon.js"
+            },
+            "require": {
+                "types": "./dist/PersonCheckIcon.d.cts",
+                "default": "./dist/PersonCheckIcon.cjs"
+            }
+        },
+        "./person_check_fill": {
+            "import": {
+                "types": "./dist/PersonCheckFillIcon.d.ts",
+                "default": "./dist/PersonCheckFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/PersonCheckFillIcon.d.cts",
+                "default": "./dist/PersonCheckFillIcon.cjs"
+            }
+        },
+        "./person_edit": {
+            "import": {
+                "types": "./dist/PersonEditIcon.d.ts",
+                "default": "./dist/PersonEditIcon.js"
+            },
+            "require": {
+                "types": "./dist/PersonEditIcon.d.cts",
+                "default": "./dist/PersonEditIcon.cjs"
+            }
+        },
+        "./person_edit_fill": {
+            "import": {
+                "types": "./dist/PersonEditFillIcon.d.ts",
+                "default": "./dist/PersonEditFillIcon.js"
+            },
+            "require": {
+                "types": "./dist/PersonEditFillIcon.d.cts",
+                "default": "./dist/PersonEditFillIcon.cjs"
+            }
+        },
+        "./person_group": {
+            "import": {
+                "types": "./dist/PersonGroupIcon.d.ts",
+                "default": "./dist/PersonGroupIcon.js"
+            },
+            "require": {
+                "types": "./dist/PersonGroupIcon.d.cts",
+                "default": "./dist/PersonGroupIcon.cjs"
+            }
+        },
+        "./person_pin": {
+            "import": {
+                "types": "./dist/PersonPinIcon.d.ts",
+                "default": "./dist/PersonPinIcon.js"
+            },
+            "require": {
+                "types": "./dist/PersonPinIcon.d.cts",
+                "default": "./dist/PersonPinIcon.cjs"
+            }
+        },
+        "./plus": {
+            "import": {
+                "types": "./dist/PlusIcon.d.ts",
+                "default": "./dist/PlusIcon.js"
+            },
+            "require": {
+                "types": "./dist/PlusIcon.d.cts",
+                "default": "./dist/PlusIcon.cjs"
+            }
+        },
+        "./preview": {
+            "import": {
+                "types": "./dist/PreviewIcon.d.ts",
+                "default": "./dist/PreviewIcon.js"
+            },
+            "require": {
+                "types": "./dist/PreviewIcon.d.cts",
+                "default": "./dist/PreviewIcon.cjs"
+            }
+        },
+        "./set": {
+            "import": {
+                "types": "./dist/SetIcon.d.ts",
+                "default": "./dist/SetIcon.js"
+            },
+            "require": {
+                "types": "./dist/SetIcon.d.cts",
+                "default": "./dist/SetIcon.cjs"
+            }
+        },
+        "./set_add": {
+            "import": {
+                "types": "./dist/SetAddIcon.d.ts",
+                "default": "./dist/SetAddIcon.js"
+            },
+            "require": {
+                "types": "./dist/SetAddIcon.d.cts",
+                "default": "./dist/SetAddIcon.cjs"
+            }
+        },
+        "./settings": {
+            "import": {
+                "types": "./dist/SettingsIcon.d.ts",
+                "default": "./dist/SettingsIcon.js"
+            },
+            "require": {
+                "types": "./dist/SettingsIcon.d.cts",
+                "default": "./dist/SettingsIcon.cjs"
+            }
+        },
+        "./shuffle": {
+            "import": {
+                "types": "./dist/ShuffleIcon.d.ts",
+                "default": "./dist/ShuffleIcon.js"
+            },
+            "require": {
+                "types": "./dist/ShuffleIcon.d.cts",
+                "default": "./dist/ShuffleIcon.cjs"
+            }
+        },
+        "./sort": {
+            "import": {
+                "types": "./dist/SortIcon.d.ts",
+                "default": "./dist/SortIcon.js"
+            },
+            "require": {
+                "types": "./dist/SortIcon.d.cts",
+                "default": "./dist/SortIcon.cjs"
+            }
+        },
+        "./sort_by_alpha": {
+            "import": {
+                "types": "./dist/SortByAlphaIcon.d.ts",
+                "default": "./dist/SortByAlphaIcon.js"
+            },
+            "require": {
+                "types": "./dist/SortByAlphaIcon.d.cts",
+                "default": "./dist/SortByAlphaIcon.cjs"
+            }
+        },
+        "./spinner": {
+            "import": {
+                "types": "./dist/SpinnerIcon.d.ts",
+                "default": "./dist/SpinnerIcon.js"
+            },
+            "require": {
+                "types": "./dist/SpinnerIcon.d.cts",
+                "default": "./dist/SpinnerIcon.cjs"
+            }
+        },
+        "./star": {
+            "import": {
+                "types": "./dist/StarIcon.d.ts",
+                "default": "./dist/StarIcon.js"
+            },
+            "require": {
+                "types": "./dist/StarIcon.d.cts",
+                "default": "./dist/StarIcon.cjs"
+            }
+        },
+        "./table_convert": {
+            "import": {
+                "types": "./dist/TableConvertIcon.d.ts",
+                "default": "./dist/TableConvertIcon.js"
+            },
+            "require": {
+                "types": "./dist/TableConvertIcon.d.cts",
+                "default": "./dist/TableConvertIcon.cjs"
+            }
+        },
+        "./tag": {
+            "import": {
+                "types": "./dist/TagIcon.d.ts",
+                "default": "./dist/TagIcon.js"
+            },
+            "require": {
+                "types": "./dist/TagIcon.d.cts",
+                "default": "./dist/TagIcon.cjs"
+            }
+        },
+        "./text_format": {
+            "import": {
+                "types": "./dist/TextFormatIcon.d.ts",
+                "default": "./dist/TextFormatIcon.js"
+            },
+            "require": {
+                "types": "./dist/TextFormatIcon.d.cts",
+                "default": "./dist/TextFormatIcon.cjs"
+            }
+        },
+        "./vk": {
+            "import": {
+                "types": "./dist/VkIcon.d.ts",
+                "default": "./dist/VkIcon.js"
+            },
+            "require": {
+                "types": "./dist/VkIcon.d.cts",
+                "default": "./dist/VkIcon.cjs"
+            }
+        },
+        "./xmark": {
+            "import": {
+                "types": "./dist/XmarkIcon.d.ts",
+                "default": "./dist/XmarkIcon.js"
+            },
+            "require": {
+                "types": "./dist/XmarkIcon.d.cts",
+                "default": "./dist/XmarkIcon.cjs"
+            }
+        },
+        "./yandex": {
+            "import": {
+                "types": "./dist/YandexIcon.d.ts",
+                "default": "./dist/YandexIcon.js"
+            },
+            "require": {
+                "types": "./dist/YandexIcon.d.cts",
+                "default": "./dist/YandexIcon.cjs"
+            }
+        },
+        "./*": {
+            "import": {
+                "types": "./dist/*Icon.d.ts",
+                "default": "./dist/*Icon.js"
+            },
+            "require": {
+                "types": "./dist/*Icon.d.cts",
+                "default": "./dist/*Icon.cjs"
+            }
+        },
+        "./package.json": "./package.json"
+    },
+    "scripts": {
+        "build": "node ../../tools/generate-react.mjs && tsdown",
+        "typecheck": "tsc --noEmit",
+        "prepublishOnly": "pnpm --workspace-root run publish-guard && pnpm build"
+    },
+    "peerDependencies": {
+        "react": "^19.1.1"
+    },
+    "devDependencies": {
+        "@flippo-software/svg-icons": "workspace:*",
+        "@flippo-software/tsconfig": "catalog:",
+        "@types/react": "catalog:",
+        "react": "catalog:",
+        "tsdown": "catalog:",
+        "typescript": "catalog:"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FlippoSoftware/icons.git",
+        "directory": "packages/react-icons"
+    },
+    "homepage": "https://github.com/FlippoSoftware/icons/tree/main/packages/react-icons#readme",
+    "bugs": {
+        "url": "https://github.com/FlippoSoftware/icons/issues"
+    }
+}

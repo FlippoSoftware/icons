@@ -1,0 +1,39 @@
+{
+    "name": "@flippo-software/svg-icons",
+    "version": "1.0.2",
+    "type": "module",
+    "description": "Flippo SVG icons and their catalogue, without a framework dependency.",
+    "keywords": [
+        "flippo",
+        "icons",
+        "svg"
+    ],
+    "sideEffects": false,
+    "files": [
+        "icons",
+        "metadata.json",
+        "README.md"
+    ],
+    "exports": {
+        "./*": "./icons/*.svg",
+        "./*.svg": "./icons/*.svg",
+        "./metadata.json": "./metadata.json",
+        "./package.json": "./package.json"
+    },
+    "scripts": {
+        "build": "node ../../tools/check-svg.mjs",
+        "prepublishOnly": "pnpm --workspace-root run publish-guard && pnpm build"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FlippoSoftware/icons.git",
+        "directory": "packages/svg-icons"
+    },
+    "homepage": "https://github.com/FlippoSoftware/icons/tree/main/packages/svg-icons#readme",
+    "bugs": {
+        "url": "https://github.com/FlippoSoftware/icons/issues"
+    }
+}

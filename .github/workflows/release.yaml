@@ -1,0 +1,60 @@
+name: Release
+
+on:
+    push:
+        branches: [main]
+
+permissions:
+    contents: read
+
+# One release at a time: two quick pushes to main must not run release-please or publish side by side.
+concurrency:
+    group: release
+    cancel-in-progress: false
+
+jobs:
+    check:
+        uses: ./.github/workflows/check.yaml
+    release-please:
+        needs: check
+        runs-on: ubuntu-latest
+        timeout-minutes: 10
+        permissions:
+            contents: write
+            pull-requests: write
+        outputs:
+            releases_created: ${{ steps.release.outputs.releases_created }}
+            paths_released: ${{ steps.release.outputs.paths_released }}
+        steps:
+            - uses: googleapis/release-please-action@v4
+              id: release
+              with:
+                  token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+                  config-file: release-please-config.json
+                  manifest-file: .release-please-manifest.json
+    publish:
+        needs: release-please
+        if: ${{ needs.release-please.outputs.releases_created == 'true' }}
+        runs-on: ubuntu-latest
+        timeout-minutes: 15
+        permissions:
+            contents: read
+            # npm trusted publishing (OIDC): no npm token is stored in the secrets.
+            id-token: write
+        strategy:
+            matrix:
+                path: ${{ fromJSON(needs.release-please.outputs.paths_released) }}
+        steps:
+            - uses: actions/checkout@v4
+            - uses: pnpm/action-setup@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version-file: .nvmrc
+                  cache: pnpm
+                  registry-url: https://registry.npmjs.org
+            - run: pnpm install --frozen-lockfile
+            # `prepublishOnly` builds the package from the release commit (publish-guard, then `pnpm build`).
+            - name: Publish the released package
+              env:
+                  PACKAGE_PATH: ${{ matrix.path }}
+              run: pnpm --filter "./$PACKAGE_PATH" publish --no-git-checks --access public

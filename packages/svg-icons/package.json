@@ -1,6 +1,6 @@
 {
     "name": "@flippo-software/svg-icons",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "module",
     "description": "Flippo SVG icons and their catalogue, without a framework dependency.",
     "author": "BlackPoretsky (Egor Gorochkin)",

@@ -3,6 +3,8 @@
     "version": "1.0.2",
     "type": "module",
     "description": "Typed React components generated from the Flippo SVG icon catalogue.",
+    "author": "BlackPoretsky (Egor Gorochkin)",
+    "license": "ISC",
     "keywords": [
         "flippo",
         "icons",

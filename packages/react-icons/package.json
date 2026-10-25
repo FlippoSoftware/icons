@@ -1,6 +1,6 @@
 {
     "name": "@flippo-software/react-icons",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "module",
     "description": "Typed React components generated from the Flippo SVG icon catalogue.",
     "author": "BlackPoretsky (Egor Gorochkin)",

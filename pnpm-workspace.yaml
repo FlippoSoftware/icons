@@ -1,0 +1,18 @@
+packages:
+    - packages/*
+
+catalog:
+    '@biomejs/biome': 2.5.15
+    '@flippo-software/biome': 1.1.1
+    '@flippo-software/tsconfig': 1.0.0
+    '@types/react': 19.3.0
+    react: 19.3.0
+    react-dom: 19.3.0
+    simple-git-hooks: 2.14.0
+    tsdown: 0.23.0
+    typescript: 7.0.2
+
+allowBuilds:
+    # Its postinstall installs the git hooks; the `prepare` script already does it.
+    simple-git-hooks: false
+    esbuild: true

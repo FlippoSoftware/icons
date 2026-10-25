@@ -3,6 +3,8 @@
     "version": "1.0.2",
     "type": "module",
     "description": "Flippo SVG icons and their catalogue, without a framework dependency.",
+    "author": "BlackPoretsky (Egor Gorochkin)",
+    "license": "ISC",
     "keywords": [
         "flippo",
         "icons",
